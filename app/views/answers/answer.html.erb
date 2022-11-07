@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="header my-5">
+   <h1>Stupid Coaching</h1>
+  </div>
+
+  <div class="card my-3 py-3 px-3 border-left-5 rounded-0 border-start border-5 border-end-0 border-top-0 border-bottom-0">
+    <p><%= @question %></p>
+    <p> -You</p>
+  </div>
+
+  <div style="background-color: #FFFFE0" class="card my-3 py-3 px-3 rounded-0 border-start border-5 border-end-0 border-top-0 border-bottom-0"> 
+      <p><%= @answer %></p>
+      <p> -Your coach</p>
+  </div> 
+
+
+  <p><%= link_to "Ask another question", ask_path %></p>
+</div>
